@@ -13,7 +13,7 @@ function getTranslatedUrl(txt){
 }
 function errorHandler(error){
     console.log('Error :'+error);
-    alert('something went wrong, Try later');
+    alert("Too Many Requests: Rate limit of 5 requests per hour exceeded.");
 }
 
 function clickEventHandler(){
